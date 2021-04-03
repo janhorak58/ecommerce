@@ -1,20 +1,19 @@
-import { Container } from 'react-bootstrap'
+import { Col, Container } from 'react-bootstrap'
 
 import Header from './components/Header'
 import Footer from './components/Footer'
+import HomeScreen from './screens/HomeScreen'
+
 function App() {
   return (
     <div>
       <Header/>
       <Container>
-        <main className="py-4">
-          <h1>
-            My App
-          </h1>
-        </main>
+        <HomeScreen/>
       </Container>
       <Footer/>
     </div>
+  
   );
 }
 
