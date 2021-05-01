@@ -1,4 +1,4 @@
-main{
+main, body, #mainbody{
   min-height: 80vh;
 }
 
