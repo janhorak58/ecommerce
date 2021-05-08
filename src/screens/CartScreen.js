@@ -12,7 +12,7 @@ import {
 } from "react-bootstrap";
 import Message from "../components/Message";
 
-import { Loader } from "../components/Loader";
+import Loader  from "../components/Loader";
 import { addToCart, removeFromCart } from "../actions/cartActions";
 
 function CartScreen({ match, location, history }) {

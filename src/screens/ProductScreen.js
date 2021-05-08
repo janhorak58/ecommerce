@@ -15,7 +15,7 @@ import Message from "../components/Message";
 import { useDispatch, useSelector } from "react-redux";
 import { listProductDetails } from "../actions/productActions";
 
-const ProductScreen = ({ match, history }) => {
+function ProductScreen ({ match, history }) {
   const [qty, setQty] = useState(1);
 
   const dispatch = useDispatch();

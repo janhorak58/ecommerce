@@ -3,3 +3,8 @@ main, body, #mainbody{
 }
 
 .rating span { margin: 0.1rem;}
+
+
+h1, h2 {
+  padding: 1rem 0em;
+}
