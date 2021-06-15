@@ -38,7 +38,7 @@ function UserEditScreen({ match, history }) {
         dispatch({type:USER_UPDATE_RESET})
         history.push("/admin/userlist")
     } else {
-       if (!user.name || user._id !== Number(userId)) {
+       if (!user || !user.name || user._id !== Number(userId)) {
 
        dispatch(getUserDetails(userId))
     } else {
